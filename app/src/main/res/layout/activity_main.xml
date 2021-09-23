@@ -42,7 +42,7 @@
         android:layout_width="257dp"
         android:layout_height="89dp"
         android:fontFamily="@font/roboto_light"
-        android:text="Order the best meals in Lagos and have them delivered to your doorstep in little or no time.Doesn't that sound delicious?"
+        android:text="Order the best meals in Lagos and have them delivered to your doorstep in little or no time.Doesn't that sound delicious??"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
