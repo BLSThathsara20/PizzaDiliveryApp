@@ -35,22 +35,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <TextView
         android:id="@+id/txtWelcomeTitle3"
-        android:layout_width="257dp"
-        android:layout_height="89dp"
+        android:layout_width="297dp"
+        android:layout_height="73dp"
         android:fontFamily="@font/roboto_light"
-        android:text="Order the best meals in Lagos and have them delivered to your doorstep in little or no time.Doesn't that sound delicious?"
+        android:text="Order the best meals in Lagos and have them delivered to your doorstep in little or no time."
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.77" />
+        app:layout_constraintVertical_bias="0.796" />
 
     <TextView
         android:id="@+id/txtWelcomeSubTitle"
@@ -75,15 +76,18 @@
         android:layout_width="250dp"
         android:layout_height="48dp"
         android:background="@drawable/welcome_custom_button"
+        android:backgroundTint="#FFFFFF"
+        android:text="START"
         android:textAlignment="center"
-        app:iconGravity="textStart"
+        android:textColor="#757574"
         app:icon="@drawable/img_start_arrow"
-        app:iconTint="#FFFFFF"
+        app:iconGravity="textStart"
+        app:iconTint="#494848"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.878"
+        app:layout_constraintVertical_bias="0.894"
         tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

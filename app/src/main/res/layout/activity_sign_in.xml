@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_sign_in_bg"
+    android:background="@drawable/gradient_background"
     tools:context=".SignIn">
 
     <TextView
@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="0.088" />
 
     <TextView
         android:id="@+id/txtWelcomeSubTitle2"
@@ -35,19 +35,23 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051" />
+        app:layout_constraintVertical_bias="0.152" />
 
     <Button
         android:id="@+id/btnEatAway"
-        android:layout_width="250dp"
+        android:layout_width="217dp"
         android:layout_height="45dp"
+        android:height="40dp"
         android:background="@drawable/welcome_custom_button"
+        android:backgroundTint="#FFB700"
         android:fontFamily="@font/roboto_medium"
         android:text="Eat Away!"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
+        android:textSize="14dp"
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,12 +62,18 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="300dp"
+        android:layout_width="277dp"
         android:layout_height="45dp"
+        android:height="50dp"
+        android:background="@drawable/welcome_custom_button"
+        android:backgroundTint="#fff"
         android:ems="10"
         android:fontFamily="@font/roboto_medium"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#2E2E2E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -73,12 +83,18 @@
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="300dp"
+        android:layout_width="277dp"
         android:layout_height="45dp"
+        android:height="50dp"
+        android:background="@drawable/welcome_custom_button"
+        android:backgroundTint="#fff"
         android:ems="10"
         android:fontFamily="@font/roboto_medium"
         android:hint="Password"
         android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#2E2E2E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -93,6 +109,7 @@
         android:layout_height="45dp"
         android:text="Forgot Password?"
         android:textColor="#575757"
+        android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -102,12 +119,19 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="250dp"
+        android:layout_width="270dp"
         android:layout_height="45dp"
         android:background="@drawable/welcome_custom_button"
+        android:backgroundTint="#FFC107"
+        android:fontFamily="@font/roboto_medium"
         android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
