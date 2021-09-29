@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "837217189228",
+    "firebase_url": "https://tipcy-pizza-default-rtdb.firebaseio.com",
+    "project_id": "tipcy-pizza",
+    "storage_bucket": "tipcy-pizza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837217189228:android:ed128dac4efaba722a0749",
+        "android_client_info": {
+          "package_name": "com.example.demo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837217189228-oqn1fdo9op0uckee3e0jo6k90u9s4sh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPjZju2Qv3I-VbnASE26U1GJtt1PvF2Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837217189228-oqn1fdo9op0uckee3e0jo6k90u9s4sh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
