@@ -35,7 +35,7 @@
         app:srcCompat="@drawable/sign_up_top_befor_line" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtName"
         android:layout_width="277dp"
         android:layout_height="50dp"
         android:backgroundTint="#FFFFFF"
@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.218" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/txtEmailSignUp"
         android:layout_width="277dp"
         android:layout_height="50dp"
         android:backgroundTint="#FFFFFF"
@@ -69,7 +69,7 @@
         app:layout_constraintVertical_bias="0.303" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txtpwsu"
         android:layout_width="277dp"
         android:layout_height="50dp"
         android:backgroundTint="#FFFFFF"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.375" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/txtpwsuc"
         android:layout_width="277dp"
         android:layout_height="50dp"
         android:backgroundTint="#FFFFFF"
